@@ -449,6 +449,9 @@ div::-webkit-scrollbar-resizer  {
     .navbar-right {
         padding: 10px 0;
     }
+    .navbar-right .nav-search input {
+        position: static;
+    }
     #menuBar{
         width: 100%;
         height: 60px;
