@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PoeCurrencyBuy</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap4.3.1.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./css/font-awesome4.7.min.css">
+    <!-- 样式文件 -->    
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/chat.css">
+    <!-- 引入Vue -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+</head>
+
+<body>
+    <main>
+        <!-- main -->
+        <div id="mainDiv">
+
+            <!-- header -->
+            <nav id="headBar" class="navbar navbar-expand-lg bg-090909 nav-link-bdbdbd">
+                <!-- Brand -->
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt=""></a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-box">
+                        <span class="navbar-toggler-span"></span>
+                    </span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav-active">
+                            <a class="nav-link" href="./index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./builds.html">POE BUILDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop_list.html">POE CURRENCY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POE ITEMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./news.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HELP</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-right">
+                        <li class="nav-item">
+                            <span class="nav-link nav-search">
+                                <i class="fa fa-search" aria-hidden="true"></i>Search
+                                <input type="text" autofocus="autofocus">
+                            </span>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            USD
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">AUD</a>
+                                <a class="dropdown-item" href="#">EUR</a>
+                                <a class="dropdown-item" href="#">CAD</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- content -->
+            <div id="allContentBox" class="index">
+                <div id="demo" class="carousel">
+                    <!-- 指示符 -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <!-- 轮播图片 -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="carousel-bg" src="./img/big_bg/bg_test.jpg">
+                        <div class="carousel-caption">
+                          <div class="scroll-cont">
+                            <div class="row">
+                                <!-- 文本（左） -->
+                                <div class="scroll-cont-ins col-lg-5">
+                                <h2>ABOUT US</h2>
+                                <p class="font-big-bord">CHEAP AND FAST POE CURRENCY BUY</p>
+                                <p>You can find various of unique PoE Maps, PoE Orbs and PoE Gems. Also, you can see the hundreds of PoE Currency here. We know that most of the players do not need all the items at the same time because it is not difficult to get some of them. But Poecurrencybuy has all of them, and you can get those which are hard to get. Some players the items they need cannot be traded? NO! They can be traded; we just need to join the party and then we can give them to you face to face. </p>
+                                </div>
+                                <!-- 图片（右） -->
+                                <div class="scroll-cont-imgs col-lg-7">
+                                <!-- <p>描述文字!</p> -->
+                                </div>
+                            </div>
+                            <!-- 其他按钮（下） -->
+                            <div class="scroll-cont-btns">
+                              <div class="btns-price">
+                              </div>
+                              <div class="btns-flex">
+                                <button class="btn-big"><a href="./about.html">LEARN MORE</a></button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="carousel-bg" src="./img/big_bg/bg_test3.jpg">
+                        <div class="carousel-caption">
+                            <div class="scroll-cont">
+                                <div class="row">
+                                    <!-- 文本（左） -->
+                                    <div class="scroll-cont-ins col-lg-5">
+                                        <div class="cont-ins-s" style="display: block">
+                                            <h2>HOT SALE</h2>
+                                            <p class="font-big-bord">EXALTED ORB</p>
+                                            <p>Poe Exalted Orbs are incredibly uncommon Poe currency items that can be dropped by slain monsters, chests, and destructible containers. Additionally, they drop from Arcanist's Strongboxes.
+                                                Exalted Orbs are a high-value currency that plays an essential function in the in-game economy. Their primary purpose will be to craft unique high-end items. Due to this,
+                                                it is regarded as the "gold standard" currency for trading amongst players, with lots of trade bargains listed when it comes to Exalted Orbs.
+                                                Because the average player will not possess the suggests to craft high-end items, the typical player typically trades Exalted Orbs for other worthwhile gear as an alternative to consuming them.</p>
+                                        </div>
+                                        <div class="cont-ins-s">
+                                            <h2>cont-ins-2</h2>
+                                        </div>
+                                        <div class="cont-ins-s">
+                                            <h2>cont-ins-3</h2>
+                                        </div>
+                                    </div>
+                                    <!-- 图片（右） -->
+                                    <div class="scroll-cont-imgs col-lg-7">
+                                        <!-- <p>描述文字!</p> -->
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="goodimg-div goodimg-click">
+                                                    <img src="./img/goods/poe_exalted.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="goodimg-div">
+                                                    <img src="./img/goods/poe_thaumaturgical.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="goodimg-div">
+                                                    <img src="./img/goods/POE_Unique_Armours_mark_of_the_red_covenant.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="goodimg-div">
+                                                    <img src="./img/goods/POE_Unique_Weapons_twyzel.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div>
+                                                <div class="goodimg-div">
+                                                    <img src="./img/goods/poe_exalted.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="goodimg-div">
+                                                    <img src="./img/goods/poe_thaumaturgical.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="goodimg-div">
+                                                    <img src="./img/goods/POE_Unique_Armours_mark_of_the_red_covenant.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="goodimg-div">
+                                                    <img src="./img/goods/POE_Unique_Weapons_twyzel.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 其他按钮（下） -->
+                                <div class="scroll-cont-btns">
+                                    <div class="cont-btns-s" style="display: block">
+                                        <div class="btns-price">
+                                            <p class="price">$100.00<span class="price-ori">$10.00</span></p>
+                                        </div>
+                                        <div class="btns-flex">
+                                            <button class="btn-big">BUY NOW</button>
+                                            <div class="add-and-other">
+                                                <div class="server">Server : 
+                                                    <select name="server" id="selectServer">
+                                                        <option value="">Betrayal</option>
+                                                        <option value="">pspxxxx</option>
+                                                        <option value="">lheieii</option>
+                                                    </select>
+                                                </div>
+                                                <div class="change-numble">
+                                                    <div class="line"></div><span>-</span><input type="number" onkeypress="return (/[\d]/.test(String.fromCharCode(event.keyCode)))" max="999" min="1" value="5" required><span>+</span><div class="line"></div>
+                                                    <div id="addBtn">ADD</div><div class="line"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cont-btns-s">
+                                        <p class="price">price 2</p>
+                                    </div>
+                                    <div class="cont-btns-s">
+                                        <p class="price">price 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="carousel-bg" src="./img/big_bg/bg_test2.jpg">
+                        <div class="carousel-caption">
+                            <div class="scroll-cont">
+                                <div class="row">
+                                    <!-- 文本（左） -->
+                                    <div class="scroll-cont-ins col-lg-5">
+                                        <h2>WHY CHOOSE US</h2>
+                                        <p class="font-big-bord">
+                                            FAST DELIVERY<br/>
+                                            CHEAPER PRICE<br/>
+                                            SAFE AND SECURE<br/>
+                                            REFUND</p>
+                                    </div>
+                                    <!-- 图片（右） -->
+                                    <div class="scroll-cont-imgs col-lg-7">
+                                        <!-- <p>描述文字!</p> -->
+                                    </div>
+                                </div>
+                                <!-- 其他按钮（下） -->
+                                <div class="scroll-cont-btns">
+                                  <div class="btns-price">
+                                  </div>
+                                  <div class="btns-flex">
+                                    <button class="btn-big">LEARN MORE</button>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer -->
+            <div id="footBar">
+                <a href="vip.html" class="vip-link"><img src="./img/vip.png" alt=""></a>
+                <ul class="foot-lists">
+                    <li><a href="javascript:void(0)">TERMS OF SERVICES</a></li>
+                    <li><a href="javascript:void(0)">REFUND POLICY</a></li>
+                    <li><a href="javascript:void(0)">POE POWER lEVELING</a></li>
+                    <li><a href="javascript:void(0)">POE CURRENCY GUIDES</a></li>
+                    <li><a href="javascript:void(0)">POE BEASTCRAFTING</a></li>
+                </ul>
+                <p class="foot-copyright">Copyright 2009-2018 <span>PoeCurrencyBuy.com</span>.All rights reserved. <span>Sitemaps</span></p>
+            </div>
+        </div>
+
+        <!-- 右侧菜单栏 -->
+        <div id="menuBar">
+            <ul class="menubar-ul">
+                <li><a href="./user_game.html"><i class="fa fa-user-o" aria-hidden="true"></i><p>User center</p></a></li>
+                <li><a href="./shop_cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i><p>Shopping cart</p></a></li>
+                <li><a href="./user_order.html"><i class="fa fa-file-text-o" aria-hidden="true"></i><p>Order</p></a></li>
+                <li><a id="chat-btn" href="javascript:void(0)"><i class="fa fa-comments-o" aria-hidden="true"></i><p>Chat</p></a></li>
+            </ul>
+            <div class="share-tab">
+                <img src="./img/share.png" alt="">
+            </div>
+        </div>
+
+    </main>
+</body>
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/popper1.14.7.min.js"></script>
+<script src="./js/bootstrap4.3.1.min.js"></script>
+
+<script type="text/javascript" src="./js/all.js" ></script>
+<script type="text/javascript" src="./js/chat.js" ></script>
+
+</html>

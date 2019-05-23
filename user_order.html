@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Order</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap4.3.1.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./css/font-awesome4.7.min.css">
+    <!-- 样式文件 -->    
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <!-- 引入Vue -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+</head>
+
+<body>
+    <main>
+        <!-- main -->
+        <div id="mainDiv">
+
+            <!-- header -->
+            <nav id="headBar" class="navbar navbar-expand-lg bg-090909 nav-link-bdbdbd">
+                <!-- Brand -->
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt=""></a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-box">
+                        <span class="navbar-toggler-span"></span>
+                    </span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav-active">
+                            <a class="nav-link" href="./index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./builds.html">POE BUILDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop_list.html">POE CURRENCY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POE ITEMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./news.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HELP</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-right">
+                        <li class="nav-item">
+                            <span class="nav-link nav-search">
+                                <i class="fa fa-search" aria-hidden="true"></i>Search
+                                <input type="text" autofocus="autofocus">
+                            </span>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            USD
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">AUD</a>
+                                <a class="dropdown-item" href="#">EUR</a>
+                                <a class="dropdown-item" href="#">CAD</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- content -->
+            <div id="allContentBox">
+            <div id="normalContentBox" class="user-center">
+                <div class="user-box">
+                    <div class="user-menu">
+                        <div class="user-menu-li">
+                            <div class="user-menu-block">
+                                <a href="./user_order.html">
+                                    <img src="./img/user/order.png" alt="">
+                                    <p>My Orders</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="user-menu-li">
+                            <div class="user-menu-block">
+                                <a href="./user_message.html">
+                                    <img src="./img/user/message.png" alt="">
+                                    <p>My Messages</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="user-menu-li">
+                            <div class="user-menu-block">
+                                <a href="./user_game.html">
+                                    <img src="./img/user/player.png" alt="">
+                                    <p>My Games</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="user-menu-li">
+                            <div class="user-menu-block">
+                                <a href="./user_point.html">
+                                    <img src="./img/user/integral.png" alt="">
+                                    <p>My Points</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="user-menu-li">
+                            <div class="user-menu-block">
+                                <a href="./user_setting.html">
+                                    <img src="./img/user/setting.png" alt="">
+                                    <p>Account Settings</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="user-menu-li">
+                            <div class="user-menu-block">
+                                <a href="./user_review.html">
+                                    <img src="./img/user/eva.png" alt="">
+                                    <p>My Reviews</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="user-order">
+                        <h3>ALL ORDERS</h3>
+                        <div class="user-order-box">
+                            <div class="user-order-scroll">
+                                <div class="user-order-li">
+                                    <div class="user-order-block">
+                                        <ul>
+                                            <li class="order-num">POEB1811230463</li>
+                                            <li>Server Name <span>Delve</span></li>
+                                            <li>Date <span>2018/11/25</span></li>
+                                            <li>Status <span>Completed</span></li>
+                                            <li>TOTAL PRICE <span class="big">$42.10</span></li>
+                                            <li style="border: none;">
+                                                <p class="small"><span>$37.10</span> You Save <span>$5.00</span></p>
+                                                <div class="view-order">VIEW DETAILS</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="user-order-content">
+                                        <div class="order-item-box">
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_exalted.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_chaos.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_ilver.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_thaumaturgical.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/POE_Unique_Armours_curtain_call.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/POE_Unique_Weapons_advancing_fortress.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_thaumaturgical.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/POE_Unique_Armours_curtain_call.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/POE_Unique_Weapons_advancing_fortress.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_thaumaturgical.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                        </div>
+                                        <p class="order-center-p">The role name with which you trade: <span>ddasfffasa</span></p>
+                                        <ul class="d-flex justify-content-between bg-secondary order-now">
+                                                <li class="is-line" style="width: 46%;"></li>
+                                                <li>
+                                                    <div class="not-now is-now"><i class="iconfont icon-dui"></i></div>
+                                                    <span class="now-status">NewOrder</span>
+                                                </li>
+                                                <li>
+                                                    <div class="not-now is-now"><i class="iconfont icon-dui"></i></div>
+                                                    <span class="now-status">Verification</span>
+                                                </li>
+                                                <li>
+                                                    <div class="not-now is-now"><i class="iconfont icon-dui"></i></div>
+                                                    <span class="now-status">Verified</span>
+                                                </li>
+                                                <li>
+                                                    <div class="not-now ">4</div>
+                                                    <span class="now-status">Processing</span>
+                                                </li>
+                                                <li>
+                                                    <div class="not-now ">5</div>
+                                                    <span class="now-status">Completed</span>
+                                                </li>
+                                        </ul>
+                                        <p class="eva">The order has been completed.<a href="#">EVALUATION</a></p>
+                                    </div>
+                                </div>
+                                <div class="user-order-li">
+                                    <div class="user-order-block">
+                                        <ul>
+                                            <li class="order-num">POEB1811230463</li>
+                                            <li>Server Name <span>Delve</span></li>
+                                            <li>Date <span>2018/11/25</span></li>
+                                            <li>Status <span>Completed</span></li>
+                                            <li>TOTAL PRICE <span class="big">$42.10</span></li>
+                                            <li style="border: none;">
+                                                <p class="small"><span>$37.10</span> You Save <span>$5.00</span></p>
+                                                <div class="view-order">VIEW DETAILS</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="user-order-content">
+                                        <div class="order-item-box">
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_exalted.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_chaos.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_ilver.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-order-li">
+                                    <div class="user-order-block">
+                                        <ul>
+                                            <li class="order-num">POEB1811230463</li>
+                                            <li>Server Name <span>Delve</span></li>
+                                            <li>Date <span>2018/11/25</span></li>
+                                            <li>Status <span>Completed</span></li>
+                                            <li>TOTAL PRICE <span class="big">$42.10</span></li>
+                                            <li style="border: none;">
+                                                <p class="small"><span>$37.10</span> You Save <span>$5.00</span></p>
+                                                <div class="view-order">VIEW DETAILS</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="user-order-content">
+                                        <div class="order-item-box">
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_exalted.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_chaos.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_ilver.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-order-li">
+                                    <div class="user-order-block">
+                                        <ul>
+                                            <li class="order-num">POEB1811230463</li>
+                                            <li>Server Name <span>Delve</span></li>
+                                            <li>Date <span>2018/11/25</span></li>
+                                            <li>Status <span>Completed</span></li>
+                                            <li>TOTAL PRICE <span class="big">$42.10</span></li>
+                                            <li style="border: none;">
+                                                <p class="small"><span>$37.10</span> You Save <span>$5.00</span></p>
+                                                <div class="view-order">VIEW DETAILS</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="user-order-content">
+                                        <div class="order-item-box">
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_exalted.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_chaos.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_ilver.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-order-li">
+                                    <div class="user-order-block">
+                                        <ul>
+                                            <li class="order-num">POEB1811230463</li>
+                                            <li>Server Name <span>Delve</span></li>
+                                            <li>Date <span>2018/11/25</span></li>
+                                            <li>Status <span>Completed</span></li>
+                                            <li>TOTAL PRICE <span class="big">$42.10</span></li>
+                                            <li style="border: none;">
+                                                <p class="small"><span>$37.10</span> You Save <span>$5.00</span></p>
+                                                <div class="view-order">VIEW DETAILS</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="user-order-content">
+                                        <div class="order-item-box">
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_exalted.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_chaos.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_ilver.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="user-order-li">
+                                    <div class="user-order-block">
+                                        <ul>
+                                            <li class="order-num">POEB1811230463</li>
+                                            <li>Server Name <span>Delve</span></li>
+                                            <li>Date <span>2018/11/25</span></li>
+                                            <li>Status <span>Completed</span></li>
+                                            <li>TOTAL PRICE <span class="big">$42.10</span></li>
+                                            <li style="border: none;">
+                                                <p class="small"><span>$37.10</span> You Save <span>$5.00</span></p>
+                                                <div class="view-order">VIEW DETAILS</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="user-order-content">
+                                        <div class="order-item-box">
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_exalted.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_chaos.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                            <div class="order-item">
+                                                <div class="order-item-img">
+                                                    <img src="./img/goods/poe_ilver.png" alt=""> x <span>50</span>
+                                                </div>
+                                                <p class="order-item-name">Exalted Orb</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- footer -->
+            <div id="footBar">
+                <a href="javascript:void(0)" class="vip-link"><img src="./img/vip.png" alt=""></a>
+                <ul class="foot-lists">
+                    <li><a href="javascript:void(0)">TERMS OF SERVICES</a></li>
+                    <li><a href="javascript:void(0)">REFUND POLICY</a></li>
+                    <li><a href="javascript:void(0)">POE POWER lEVELING</a></li>
+                    <li><a href="javascript:void(0)">POE CURRENCY GUIDES</a></li>
+                    <li><a href="javascript:void(0)">POE BEASTCRAFTING</a></li>
+                </ul>
+                <p class="foot-copyright">Copyright 2009-2018 <span>PoeCurrencyBuy.com</span>.All rights reserved. <span>Sitemaps</span></p>
+            </div>
+        </div>
+
+        <!-- 右侧菜单栏 -->
+        <div id="menuBar">
+            <ul class="menubar-ul">
+                <li><a href=""><i class="fa fa-user-o" aria-hidden="true"></i><p>User center</p></a></li>
+                <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i><p>Shopping cart</p></a></li>
+                <li><a href=""><i class="fa fa-file-text-o" aria-hidden="true"></i><p>Order</p></a></li>
+                <li><a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><p>Chat</p></a></li>
+            </ul>
+            <div class="share-tab">
+                <img src="./img/share.png" alt="">
+            </div>
+        </div>
+
+    </main>
+</body>
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/popper1.14.7.min.js"></script>
+<script src="./js/bootstrap4.3.1.min.js"></script>
+
+<script type="text/javascript" src="./js/all.js" ></script>
+</html>

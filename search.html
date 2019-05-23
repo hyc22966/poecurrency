@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap4.3.1.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./css/font-awesome4.7.min.css">
+    <!-- 样式文件 -->    
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <!-- 引入Vue -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+</head>
+
+<body>
+    <main>
+        <!-- main -->
+        <div id="mainDiv">
+
+            <!-- header -->
+            <nav id="headBar" class="navbar navbar-expand-lg bg-090909 nav-link-bdbdbd">
+                <!-- Brand -->
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt=""></a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-box">
+                        <span class="navbar-toggler-span"></span>
+                    </span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav-active">
+                            <a class="nav-link" href="./index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./builds.html">POE BUILDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop_list.html">POE CURRENCY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">POE ITEMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./news.html">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HELP</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-right">
+                        <li class="nav-item">
+                            <span class="nav-link nav-search">
+                                <i class="fa fa-search" aria-hidden="true"></i>Search
+                                <input type="text" autofocus="autofocus">
+                            </span>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            USD
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">AUD</a>
+                                <a class="dropdown-item" href="#">EUR</a>
+                                <a class="dropdown-item" href="#">CAD</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- content -->
+            <div id="allContentBox">
+            <div id="normalContentBox">
+                <div class="search">
+                    <div class="search-box">
+                        <h2>SEARCH RESULTS</h2>
+                        <div class="search-goods">
+                            <div>
+                                <div class="cur-block cur-block-click">
+                                    <a href="#">
+                                        <div class="cur-block-img">
+                                            <img src="./img/goods/poe_exalted.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <a href="#">
+                                        <div class="cur-block-img">
+                                            <img src="./img/goods/poe_chaos.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <a href="#">
+                                            <img src="./img/goods/poe_exalted.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <a href="#">
+                                            <img src="./img/goods/POE_Unique_Armours_curtain_call.png" alt="">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <a href="#">
+                                            <img src="./img/goods/POE_Unique_Armours_mark_of_the_red_covenant.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <a href="#">
+                                            <img src="./img/goods/POE_Unique_Weapons_advancing_fortress.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <a href="#">
+                                            <img src="./img/goods/POE_Unique_Weapons_twyzel.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <a href="#">
+                                            <img src="./img/goods/POE_Unique_Armours_mark_of_the_red_covenant.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <a href="#">
+                                            <img src="./img/goods/POE_Unique_Weapons_advancing_fortress.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <img src="./img/goods/POE_Unique_Weapons_twyzel.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <img src="./img/goods/poe_exalted.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <img src="./img/goods/POE_Unique_Weapons_advancing_fortress.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <img src="./img/goods/POE_Unique_Weapons_twyzel.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <img src="./img/goods/POE_Unique_Armours_mark_of_the_red_covenant.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <img src="./img/goods/POE_Unique_Weapons_advancing_fortress.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <img src="./img/goods/POE_Unique_Weapons_twyzel.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="cur-block">
+                                    <div class="cur-block-img">
+                                        <img src="./img/goods/poe_exalted.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-box">
+                            <div class="news-li">
+                                <div class="news-block">
+                                    <a href="javascript:void(0)">
+                                        <img src="./img/currency_46.jpg" alt="">
+                                        <h6>[POE 3.6 Ranger] Best Synthesis Molten Strike Raider Build (PC,PS4,Xbox) - Cheap, Tanky, League Starter</h6>
+                                        <p>Molten Strike is an attack skill consisting of two parts: an initial melee attack hit and a projectile attack.
+                                            This build is easily started at the beginning of league and starts out cheap and powerful with extreme end game scaling available with investment as the league goes on.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news-li">
+                                <div class="news-block">
+                                    <a href="javascript:void(0)">
+                                        <img src="./img/currency_46.jpg" alt="">
+                                        <h6>[POE 3.6 Ranger] Best Synthesis Molten Strike Raider Build (PC,PS4,Xbox) - Cheap, Tanky, League Starter</h6>
+                                        <p>Molten Strike is an attack skill consisting of two parts: an initial melee attack hit and a projectile attack.
+                                            This build is easily started at the beginning of league and starts out cheap and powerful with extreme end game scaling available with investment as the league goes on.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news-li">
+                                <div class="news-block">
+                                    <a href="javascript:void(0)">
+                                        <img src="./img/currency_46.jpg" alt="">
+                                        <h6>[POE 3.6 Ranger] Best Synthesis Molten Strike Raider Build (PC,PS4,Xbox) - Cheap, Tanky, League Starter</h6>
+                                        <p>Molten Strike is an attack skill consisting of two parts: an initial melee attack hit and a projectile attack.
+                                            This build is easily started at the beginning of league and starts out cheap and powerful with extreme end game scaling available with investment as the league goes on.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news-li">
+                                <div class="news-block">
+                                    <a href="javascript:void(0)">
+                                        <img src="./img/currency_46.jpg" alt="">
+                                        <h6>[POE 3.6 Ranger] Best Synthesis Molten Strike Raider Build (PC,PS4,Xbox) - Cheap, Tanky, League Starter</h6>
+                                        <p>Molten Strike is an attack skill consisting of two parts: an initial melee attack hit and a projectile attack.
+                                            This build is easily started at the beginning of league and starts out cheap and powerful with extreme end game scaling available with investment as the league goes on.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news-li">
+                                <div class="news-block">
+                                    <a href="javascript:void(0)">
+                                        <img src="./img/currency_46.jpg" alt="">
+                                        <h6>[POE 3.6 Ranger] Best Synthesis Molten Strike Raider Build (PC,PS4,Xbox) - Cheap, Tanky, League Starter</h6>
+                                        <p>Molten Strike is an attack skill consisting of two parts: an initial melee attack hit and a projectile attack.
+                                            This build is easily started at the beginning of league and starts out cheap and powerful with extreme end game scaling available with investment as the league goes on.</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="news-li">
+                                <div class="news-block">
+                                    <a href="javascript:void(0)">
+                                        <img src="./img/currency_46.jpg" alt="">
+                                        <h6>[POE 3.6 Ranger] Best Synthesis Molten Strike Raider Build (PC,PS4,Xbox) - Cheap, Tanky, League Starter</h6>
+                                        <p>Molten Strike is an attack skill consisting of two parts: an initial melee attack hit and a projectile attack.
+                                            This build is easily started at the beginning of league and starts out cheap and powerful with extreme end game scaling available with investment as the league goes on.</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+            <!-- footer -->
+            <div id="footBar">
+                <a href="javascript:void(0)" class="vip-link"><img src="./img/vip.png" alt=""></a>
+                <ul class="foot-lists">
+                    <li><a href="javascript:void(0)">TERMS OF SERVICES</a></li>
+                    <li><a href="javascript:void(0)">REFUND POLICY</a></li>
+                    <li><a href="javascript:void(0)">POE POWER lEVELING</a></li>
+                    <li><a href="javascript:void(0)">POE CURRENCY GUIDES</a></li>
+                    <li><a href="javascript:void(0)">POE BEASTCRAFTING</a></li>
+                </ul>
+                <p class="foot-copyright">Copyright 2009-2018 <span>PoeCurrencyBuy.com</span>.All rights reserved. <span>Sitemaps</span></p>
+            </div>
+        </div>
+
+        <!-- 右侧菜单栏 -->
+        <div id="menuBar">
+            <ul class="menubar-ul">
+                <li><a href=""><i class="fa fa-user-o" aria-hidden="true"></i><p>User center</p></a></li>
+                <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i><p>Shopping cart</p></a></li>
+                <li><a href=""><i class="fa fa-file-text-o" aria-hidden="true"></i><p>Order</p></a></li>
+                <li><a href=""><i class="fa fa-comments-o" aria-hidden="true"></i><p>Chat</p></a></li>
+            </ul>
+            <div class="share-tab">
+                <img src="./img/share.png" alt="">
+            </div>
+        </div>
+
+    </main>
+</body>
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/popper1.14.7.min.js"></script>
+<script src="./js/bootstrap4.3.1.min.js"></script>
+
+<script type="text/javascript" src="./js/all.js" ></script>
+
+</html>
